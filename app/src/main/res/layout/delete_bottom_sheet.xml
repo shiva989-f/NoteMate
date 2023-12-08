@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/delete_bottom_sheet"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:background="@drawable/delete_indicator_shape"
+        android:layout_margin="@dimen/_4sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginVertical="@dimen/_18sdp"
+        android:text="@string/delete_confirmation_text"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/no_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_34sdp"
+        android:text="@string/no"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textAllCaps="false"
+        android:background="@drawable/no_delete_btn_bg"
+        android:fontFamily="@font/nunito_reg"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_10sdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/yes_delete_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/yes_delete_btn_bg"
+            android:fontFamily="@font/nunito_reg"
+            android:text="@string/yes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp" />
+
+</LinearLayout>

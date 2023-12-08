@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NoteMate</string>
+    <string name="quick_note_taking_app">Quick Note Taking App…</string>
+    <string name="by_shivshakti_studio">ShivShakti Apps</string>
+    <string name="floating_add_button">Floating add button</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="note">Note</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="priority">Priority</string>
+    <string name="no_filter">No Filter</string>
+    <string name="high_to_low">High to Low</string>
+    <string name="low_to_high">Low to High</string>
+    <string name="date">12/11/2023</string>
+    <string name="no_notes_are_available">No Notes are available</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_confirmation_text">Are you sure want to delete this note?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="search">Search</string>
+</resources>

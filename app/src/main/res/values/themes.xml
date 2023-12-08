@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Notes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/deepSkyBlue</item>
+         <item name="colorPrimaryVariant">@color/deepSkyBlueDark</item>
+         <item name="colorPrimaryDark">@color/deepSkyBlueDark</item>
+         <item name="colorOnPrimary">@color/white</item>
+         <item name="colorSecondary">@color/tomato</item>
+         <item name="colorSecondaryVariant">@color/tomatoDark</item>
+         <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Notes" parent="Base.Theme.Notes" />
+    
+    <style name="BottomSheetStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+    
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delete_bottom_sheet_bg</item>
+    </style>
+</resources>
